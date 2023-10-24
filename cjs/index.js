@@ -11,5 +11,5 @@ console.log('Hostname:', os.hostname());
 console.log('CPU', os.cpus());
 console.log('Memory', os.freemem() /1024 / 1024);
 console.log('Os', os.networkInterfaces());
-
+console.log('Uptime', os.uptime()/60 / 60);
 
